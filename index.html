@@ -52,7 +52,6 @@
       opacity: 0.6;
     }
 
-    /* Section Containers */
     section {
       width: 100%;
       min-height: 100vh;
@@ -64,7 +63,6 @@
       padding: 4rem 2rem;
     }
 
-    /* --- HERO SECTION --- */
     #hero {
       background: radial-gradient(circle at center, #1b1921 0%, #0b0b0e 80%);
       border-bottom: 2px solid var(--accent-red);
@@ -155,7 +153,6 @@
       60% { transform: translateY(-4px); }
     }
 
-    /* --- ABOUT ME SECTION --- */
     #about {
       background: #0d0c10;
     }
@@ -296,7 +293,6 @@
       color: var(--accent-gold);
     }
 
-    /* --- RESEARCH SECTION --- */
     #research {
       background: #0b0b0e;
       border-top: 1px solid var(--border-color);
@@ -419,7 +415,6 @@
       line-height: 1.4;
     }
 
-    /* --- EXPANDABLE PROJECTS / DIGITAL TASKS SECTION --- */
     #projects {
       background: #08080a;
       border-top: 1px solid var(--border-color);
@@ -456,7 +451,6 @@
       display: block;
     }
 
-    /* Accordion List */
     .tasks-list {
       border-top: 1px solid rgba(255, 255, 255, 0.15);
       width: 100%;
@@ -471,7 +465,6 @@
       background-color: rgba(255, 255, 255, 0.02);
     }
 
-    /* Accordion Button Header */
     .task-button {
       width: 100%;
       background: none;
@@ -527,7 +520,6 @@
       color: var(--accent-red);
     }
 
-    /* Expandable Content Container */
     .task-content {
       max-height: 0;
       overflow: hidden;
@@ -575,7 +567,6 @@
 </head>
 <body>
 
-  <!-- HERO SECTION -->
   <section id="hero">
     <div class="lc-watermark">LIMBUS</div>
     <div class="hero-content">
@@ -587,11 +578,9 @@
     <div class="scroll-indicator">▼ SCROLL TO ACCESS PROFILE</div>
   </section>
 
-  <!-- ABOUT ME SECTION -->
   <section id="about">
     <div class="about-container">
-      
-      <!-- Sinner Photo Card -->
+
       <div class="sinner-card">
         <div class="photo-wrapper">
           <img src="Sofipic.png" alt="Sofino James T. Batad">
@@ -599,7 +588,6 @@
         </div>
       </div>
 
-      <!-- About Me Text Panel -->
       <div class="dossier-panel">
         <h2 class="section-title">About Me</h2>
         <div class="dossier-header">
@@ -622,13 +610,11 @@
     </div>
   </section>
 
-  <!-- RESEARCH SECTION -->
   <section id="research">
     <div class="research-container">
       <h2 class="section-title">Research Project</h2>
 
       <div class="research-grid">
-        <!-- Research Details Dossier -->
         <div class="dossier-panel">
           <div class="dossier-header">
             <span>PROJECT FILE: LC-RES-01</span>
@@ -647,7 +633,6 @@
           </div>
         </div>
 
-        <!-- Research Group Photo Card -->
         <div class="sinner-card">
           <div class="photo-wrapper">
             <img src="Research_ggroup.jpg" alt="Research Group">
@@ -658,13 +643,11 @@
     </div>
   </section>
 
-  <!-- EDUCATION SECTION -->
   <section id="education">
     <div class="education-container">
       <h2 class="section-title">Educational Background</h2>
 
       <div class="school-grid">
-        <!-- School 1: YLAC -->
         <div class="school-card">
           <div class="school-step">PHASE // 01</div>
           <div class="school-logo-wrapper">
@@ -674,7 +657,6 @@
           <p class="school-name">Cebu City YLAC School Foundation, Inc.</p>
         </div>
 
-        <!-- School 2: DVRMNHS -->
         <div class="school-card">
           <div class="school-step">PHASE // 02</div>
           <div class="school-logo-wrapper">
@@ -684,7 +666,6 @@
           <p class="school-name">Don Vicente Rama Memorial National High School</p>
         </div>
 
-        <!-- School 3: CIT-U -->
         <div class="school-card">
           <div class="school-step">PHASE // 03</div>
           <div class="school-logo-wrapper">
@@ -697,7 +678,6 @@
     </div>
   </section>
 
-  <!-- PROJECTS / DIGITAL TASKS SECTION -->
   <section id="projects">
     <div class="tasks-container">
       <div class="tasks-category-label">GROUP WORK</div>
@@ -707,7 +687,6 @@
 
       <div class="tasks-list">
 
-        <!-- ITEM 01 -->
         <div class="task-item">
           <button class="task-button">
             <div class="task-button-left">
@@ -722,7 +701,6 @@
                 Description of Digital Task I goes here. Explain what you built, what tools you used, or paste your project details here.
               </p>
               <div class="task-link-wrapper">
-                <!-- Paste your link inside href="YOUR_LINK_HERE" -->
                 <a href="YOUR_PROJECT_1_LINK_HERE" target="_blank" class="task-btn">
                   VIEW PROJECT ➔
                 </a>
@@ -730,8 +708,7 @@
             </div>
           </div>
         </div>
-
-        <!-- ITEM 02 -->
+        
         <div class="task-item">
           <button class="task-button">
             <div class="task-button-left">
@@ -746,7 +723,6 @@
                 Description of Digital Task II goes here. You can paste project specifics, team roles, or execution mechanics.
               </p>
               <div class="task-link-wrapper">
-                <!-- Paste your link inside href="YOUR_LINK_HERE" -->
                 <a href="YOUR_PROJECT_2_LINK_HERE" target="_blank" class="task-btn">
                   VIEW PROJECT ➔
                 </a>
@@ -755,7 +731,6 @@
           </div>
         </div>
 
-        <!-- ITEM 03 (OPTIONAL EXPANSION) -->
         <div class="task-item">
           <button class="task-button">
             <div class="task-button-left">
@@ -770,7 +745,6 @@
                 Description of Digital Task III goes here. Add your third project description and repository/demo details here.
               </p>
               <div class="task-link-wrapper">
-                <!-- Paste your link inside href="YOUR_LINK_HERE" -->
                 <a href="YOUR_PROJECT_3_LINK_HERE" target="_blank" class="task-btn">
                   VIEW PROJECT ➔
                 </a>
@@ -783,7 +757,6 @@
     </div>
   </section>
 
-  <!-- JAVASCRIPT ACCORDION LOGIC -->
   <script>
     const taskButtons = document.querySelectorAll(".task-button");
 
